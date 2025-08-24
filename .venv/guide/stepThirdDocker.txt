@@ -1,0 +1,11 @@
+Чтобы запустить и протестировать проект, начнем с докера:
+1) Установи Docker Desktop for Mac
+https://www.docker.com/get-started/
+
+2) Открой терминал в корне проекта (где Dockerfile) и собери образ:
+docker build -t paidposts-bot .
+3)Запусти контейнер:
+docker run -d --name paidposts paidposts-bot
+
+После этого в приложении докер появится контейнер, ничего не трогай, просто для проверки увидишь что он есть
+
